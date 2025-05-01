@@ -1,0 +1,42 @@
+.dashboard-container {
+  padding: 16px;
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .summary-card {
+    padding: 16px;
+    text-align: center;
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .chartbox {
+    display: flex;
+    padding-top: 15px;
+  }
+
+  .category-chart-card{
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .monthly-expense-chart-card{
+    width: 50%;
+  }
+}
